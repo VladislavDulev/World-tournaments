@@ -1,0 +1,20 @@
+.single-select {
+  flex-grow: 1;
+}
+
+.menu-item {
+  & img {
+    margin: 10px;
+    border-radius: 10%;
+    width: 20px;
+  }
+}
+
+.text-field {
+  border-radius: 4px;
+  & img {
+    margin-left: 10px;
+    border-radius: 10%;
+    width: 20px;
+  }
+}

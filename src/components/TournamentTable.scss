@@ -1,0 +1,22 @@
+.tournament-table {
+  background: rgb(216, 232, 255);
+
+  .table-head {
+    background-color: rgb(116, 162, 226);
+  }
+
+  & img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+}
+
+.no-data {
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.289);
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 12px;
+}
